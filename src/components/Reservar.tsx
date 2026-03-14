@@ -109,10 +109,7 @@ export default function Reservar() {
             <form
               onSubmit={handleSubmit}
               className="glass-panel flex flex-col gap-5 rounded-[28px]"
-              style={{ padding: "3rem 3.5rem" }}
-              style={{
-                border: "1px solid rgba(57,255,20,0.2)",
-              }}
+              style={{ padding: "3rem 3.5rem", border: "1px solid rgba(57,255,20,0.2)" }}
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <Field label="Nombre" name="nombre" type="text" placeholder="Tu nombre" required />
